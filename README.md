@@ -10,6 +10,26 @@ Dieses Projekt ist ein einfaches Frontend, das mit **Vanilla JavaScript** (reine
 
 - Ein funktionierendes Django-Backend (`Coderr/`), das **nicht** in diesem Projekt enthalten ist.
 - Visual Studio Code mit der **Live Server**-Erweiterung oder eine ähnliche Möglichkeit, die `index.html` lokal im Browser zu starten.
+- A separate local backend repository is required for full functionality.
+- The backend must run locally at:
+
+```text
+http://127.0.0.1:8000/api/
+```
+
+---
+
+## Project Structure
+
+This frontend is part of a separated full-stack project setup.
+
+Recommended local structure:
+
+```text
+project_coderr/
+├── frontend/
+└── backend/
+```
 
 ---
 
@@ -18,6 +38,34 @@ Dieses Projekt ist ein einfaches Frontend, das mit **Vanilla JavaScript** (reine
 1. Stelle sicher, dass das Backend `Coderr/` läuft.
 2. Öffne dieses Projekt in **Visual Studio Code**.
 3. Rechtsklicke auf die Datei `index.html` und wähle **Open with Live Server**, um das Projekt zu starten.
+
+---
+
+## Guest Logins
+
+The frontend provides predefined guest login buttons for testing.
+
+Configured guest users:
+
+```text
+Customer:
+username: KarlKalle
+password: Dagi1234
+
+Business:
+username: WillWill
+password: Dagi1234
+```
+
+---
+
+## Frontend Configuration
+
+Important configuration file:
+
+```text
+shared/scripts/config.js
+```
 
 ---
 
@@ -40,7 +88,7 @@ Dieses Projekt ist **ausschließlich für Schüler der Developer Akademie** geda
 ## JSDoc - ansehen
 
 1. Navigiere in den Ordner `docs/`
-2. Du kannst das Projekt öffnen mit Doppelklick auf `docs/index.html`, oder im Terminal 
-    Windows: `start docs/index.html`
-    macOS: `open docs/index.html`
-    Linus: `xdg-open docs/index.html` 
+2. Du kannst das Projekt öffnen mit Doppelklick auf `docs/index.html`, oder im Terminal
+   Windows: `start docs/index.html`
+   macOS: `open docs/index.html`
+   Linus: `xdg-open docs/index.html`
