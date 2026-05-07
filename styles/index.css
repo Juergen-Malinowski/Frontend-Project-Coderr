@@ -86,6 +86,17 @@ h1{
     width: 40%;
 }
 
+.privacy_section {
+    max-width: 900px;
+    padding: 48px 24px;
+    gap: 16px;
+}
+
+.privacy_section p,
+.privacy_section li {
+    line-height: 1.6;
+}
+
 .green_info_section > section{
     max-width: 1440px;
 }
